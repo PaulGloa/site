@@ -1,0 +1,142 @@
+<!doctype html>
+
+<!--Ceci est un commentaire. Il sera ignoré par le navigateur!-->
+
+<html lang="fr">
+
+	<head>
+		<!--Métadonnée définissant le format d'encodage des caractères de la page web-->
+		<meta charset="utf-8">
+		<title>page d'accueil</title>
+		<link id = "css" rel="stylesheet" type="text/css" href="style.css">
+		<script src ="script.js"></script>
+		
+	</head>
+	<body class = "premiere_page">
+		<header>
+			<h1>contenu de ma première page web</h1>
+		</header>
+		<section>
+			<button onclick="window.location.href = 'index.html';">Menu</button>
+			<button onclick="window.location.href = 'mes_choix.htm';">Mes choix</button>
+			<button onclick="window.location.href = 'alan_kay.html';">Alan Kay</button>
+			<button onclick="window.location.href = 'sources.html';">Sources</button>
+		</section>
+		<section>
+			<article class = "liste">
+				<h2>
+					mes couleurs 
+				</h2>
+				<ul class = "liste">
+					<li>bleu</li>
+					<li>vert</li>
+					<li>rouge</li>
+				</ul>
+			</article>
+			
+			<article class ="images" id="images">
+				<h2>Insertion d'images</h2>
+				<div class ="images">
+					
+					<!--Ceci est le code pour insérer une image se trouvant dans le répertoire Images.-->
+					<img src="Images/2001_A_Space_Odyssey_title.jpeg" alt="Logotype original du film 2001, l'Odyssée de l'espace" width="300px"/>
+
+					<!--Ceci est le code pour indiquer le lien vers la source de l'image précédente.-->
+					<a class = "premiere_page" href="https://fr.wikipedia.org/wiki/2001,_l%27Odyss%C3%A9e_de_l%27espace">Source image</a>
+				</div>
+				
+			</article>
+			
+			<article id="texte">
+				<h2>Insertion de texte</h2>
+				<p>Le <strong>lorem ipsum</strong> (également appelé faux-texte, lipsum, ou bolo bolo1) est, en imprimerie, une suite de mots sans signification utilisée à titre provisoire pour calibrer une mise en page, le texte définitif venant remplacer le faux-texte dès qu'il est prêt ou que la mise en page est achevée.</p>
+
+				<p>Généralement, on utilise un texte en faux latin (le texte ne veut rien dire, il a été modifié), le Lorem ipsum ou Lipsum. L'avantage du latin est que l'opérateur sait au premier coup d'œil que la page contenant ces lignes n'est pas valide et que l'attention du lecteur n'est pas dérangée par le contenu, lui permettant de demeurer concentré sur le seul aspect graphique. <a class = "premiere_page" href="https://fr.wikipedia.org/wiki/Lorem_ipsum"> <em>(Source Wikipedia)</em> </a> </p>
+
+				<p><b>Lorem</b> ipsum dolor sit amet, consectetur adipiscing elit. Curabitur a tortor rutrum, placerat dui sit amet, interdum est. Phasellus vel libero et ante porttitor eleifend sed vitae justo. Maecenas at arcu sollicitudin, mattis magna facilisis, volutpat eros. Donec id eros condimentum, imperdiet purus a, gravida neque. Aliquam dapibus lobortis rhoncus. Nullam suscipit ut libero eu euismod. Nunc mattis nisl in enim aliquam, at facilisis nisi viverra. Interdum et malesuada fames ac ante ipsum primis in faucibus. Mauris leo ligula, sollicitudin non pellentesque nec, vehicula vel mauris. In a massa in lectus molestie mattis. Nulla scelerisque egestas auctor.</p>
+			</article>
+			
+			<article id = "tableau">
+				<h2>Insertion de tableaux</h2>
+				<!-- Création d'un tableau.-->
+				<table>
+					<!-- Création d'une ligne.-->
+					  <tr>
+					  	<!-- Création d'une cellule.-->
+						    <th>Company</th>
+						    <th>Contact</th>
+						    <th>Country</th>
+					  </tr>
+					  <tr>
+						    <td>Alfreds Futterkiste</td>
+						    <td>Maria Anders</td>
+						    <td>Germany</td>
+					  </tr>
+					  <tr>
+						    <td>Centro comercial Moctezuma</td>
+						    <td>Francisco Chang</td>
+						    <td>Mexico</td>
+					  </tr>
+					  <tr>
+						    <td>Ernst Handel</td>
+						    <td>Roland Mendel</td>
+						    <td>Austria</td>
+					  </tr>
+					  <tr>
+						    <td>Island Trading</td>
+						    <td>Helen Bennett</td>
+						    <td>UK</td>
+					  </tr>
+					  <tr>
+						    <td>Laughing Bacchus Winecellars</td>
+						    <td>Yoshi Tannamuri</td>
+						    <td>Canada</td>
+					  </tr>
+					  <tr>
+						    <td>Magazzini Alimentari Riuniti</td>
+						    <td>Giovanni Rovelli</td>
+						    <td>Italy</td>
+					  </tr>
+				</table>
+			</article>
+			
+			<article class = "video" id="video">
+				<h2>Insertion de vidéos</h2>
+				<div class = "video">
+					
+					<!--Ceci est un lien vers une page du site Dailymotion-->
+					<a class = "premiere_page" href="https://dai.ly/x8hjdyu">Bande annonce du film</a>
+
+					<!--Ceci est le code pour insérer une vidéo se trouvant dans le répertoire Videos.-->
+					<video width="400" controls>
+						<source src="Videos/meduse-110877.mp4" type="video/mp4">
+						Your browser does not support the video tag.
+					</video> 
+					<!--Ceci est le code pour indiquer le lien vers la source de la vidéo précédente.-->
+					<a class = "premiere_page" href="https://pixabay.com/fr/videos/m%C3%A9duse-sous-marin-oc%C3%A9an-l-eau-110877/">Source vidéo</a>
+				</div>
+				<h2> Utilisation de codes d'intégration (à adapter !)</h2>
+				<div class = "video">
+					<iframe width="560" height="315" src="https://www.youtube.com/embed/5px2VwyCeWE" title="YouTube video player" frameborder="0" allow="autoplay;encrypted-media" allowfullscreen></iframe>
+
+					<div style="position:relative;padding-bottom:56.25%;height:0;overflow:hidden;"> 
+						<iframe style="width:100%;height:100%;position:absolute;left:0px;top:0px;overflow:hidden" frameborder="0" type="text/html" src="https://www.dailymotion.com/embed/video/x8hjdyu" width="100%" height="100%" allowfullscreen title="Lecteur vidéo Dailymotion" > </iframe>
+					</div>
+				</div>
+			</article>
+		</section>
+		<footer>
+			<nav>
+				<ul>
+					<li><a href="https://bergson.paysdelaloire.e-lyco.fr">lien vers le lycée ! |</a></li>
+					<li class = "lien_interne"><a href="#images">Insertion d'images |</a></li>
+					<li class = "lien_interne"><a href="#texte">Insertion de texte |</a></li>
+					<li class = "lien_interne"><a href="#tableau">Insertion d'un tableau |</a></li>
+					<li class = "lien_interne"><a href="#video">Insertion d'une vidéo |</a></li>
+					<li><a href="#about">About</a></li>
+				</ul>
+			</nav>
+			<p id = "auteur">Paul Gloannec</p>
+		</footer>	
+	</body>
+</html>

@@ -1,0 +1,145 @@
+/* général*/
+body {
+	background-color: black;
+	text-align: center;
+	margin: 0px;
+	font-family: consolas;
+}
+header {
+	background-color: #0AD300;
+	margin-top: 0px;
+	width: 100%;
+}
+h1{
+	color: black;
+	font-size: 300%;
+	margin-bottom: 15px;
+}
+h2 {
+	color: black;
+	background-color: #0AD300;
+}
+/*page menu*/
+section.menu {
+	margin-top: 2%;
+}
+div.menu {
+	margin-left: 10%;
+	font-size: 150%;
+	text-align: left;
+}
+p.sous-menu {
+	color: black;
+	display: inline-block;
+}
+a.menu {
+	display: inline-block;
+	text-decoration: none;
+	color: #0AD300;
+}
+h3.menu {
+	display: inline-block;
+	color: #0AD300;
+}
+div.menu:hover p.sous-menu {
+	color: #0AD300;
+}
+footer.menu {
+	position: fixed;
+	text-align: left;
+	color: #0AD300;
+	font-size: 90%;
+	bottom: 0px;
+}
+/* première page*/
+body.premiere_page {
+	background-color: black;
+	text-align: center;
+	color: #0AD300;
+	margin: 0px;
+	font-family: consolas;
+}
+button {
+	color: #0AD300;
+	border-color: #0AD300; 
+	background-color: black
+}
+ul.liste {
+	display: inline-block;
+}
+a.premiere_page {
+	color: #0AD300;
+}
+a.premiere_page:hover {
+	color: blue;
+}
+#texte p {
+	margin-left: 2%;
+	margin-right: 2%;
+	text-align: left;
+}
+table {
+	display: inline-block;
+	text-align: left;
+}
+footer a{
+	text-decoration: none;
+	color: #0AD300;
+}
+footer a:hover {
+	color: blue;
+}
+footer li {
+	display: inline-block;
+	margin-left: 7px;
+}
+/* alan Kay*/
+section.alan p {
+	color: #0AD300;
+}
+section.alan a {
+	color: #0AD300;
+}
+section.alan a:hover {
+	color: blue;
+}
+section.alan {
+	margin-left: 5%;
+	margin-right: 5%;
+	text-align: left;
+}
+/*sources*/
+article.sources a {
+	color: #0AD300;
+}
+article.sources p {
+	margin-top: 0px;
+	margin-bottom: 0px;
+	padding-top: 0px;
+	padding-bottom: 0px;
+}
+article.sources a:hover {
+	color: blue;
+}
+article.sources {
+	text-align: center;
+	color: #0AD300;
+	margin-bottom: 15px;
+}
+article.sources li {
+	margin-bottom: 5px;
+}
+/*mes choix*/
+#choix ol article {
+	display: inline-block;
+	padding: 20px;
+}
+#choix ol  {
+	text-align: center;
+}
+#choix  {
+	color: #0AD300;
+}
+#pingpong img{
+	background-color: white;
+}
